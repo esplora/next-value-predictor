@@ -1,0 +1,31 @@
+{
+    "name": "esplora/next-value-predictor",
+    "description": "Predict the next value rate based on the previous rates",
+    "keywords": [
+        "predict"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandr Chernyaev",
+            "email": "bliz48rus@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Esplora\\Predictor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Esplora\\Predictor\\Tests\\": "tests/"
+        }
+    }
+}
