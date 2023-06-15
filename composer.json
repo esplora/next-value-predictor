@@ -1,6 +1,6 @@
 {
     "name": "esplora/next-value-predictor",
-    "description": "Predict the next value rate based on the previous rates",
+    "description": "Predict the next value based on the previous values",
     "keywords": [
         "predict"
     ],
